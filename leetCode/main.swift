@@ -10,8 +10,6 @@ import Foundation
 
 
 
-
-
 // 1  两数只和
 func test1() {
     
@@ -398,6 +396,233 @@ func test36()  {
     
 }
 
+func test37(_ num:Int){
+    guard num > 0 else {
+         print("传入的值小于0")
+        fatalError()
+    }
+    let letterArray: [String] = [
+        "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
+    ]
+    var result = ""
+    if num <= 26 {
+        result = letterArray[num - 1]
+        print("结果 \(result)")
+    }else{
+        
+        var cient = num
+        let remaind = num % 26
+        while cient > 26 {
+            cient = cient / 26
+        }
+        
+        result += letterArray[cient - 1]
+        result += letterArray[remaind - 1]
+    }
+    print(result)
+}
 
 
-test36()
+func findDisappearedNumbers(_ nums: [Int]) -> [Int] {
+    var map : [Int:Int] = [Int:Int]()
+    for i in nums {
+        map[i] = i
+    }
+    var result = [Int]()
+    for i in 1...nums.count{
+        if let _ = map[i]{
+            
+        }else{
+            result.append(i)
+        }
+    }
+    
+    return result
+}
+
+
+func pivotIndex(_ nums: [Int]) -> Int {
+    
+    var leftSum  = 0
+    var rightSum = nums.reduce(0, +)
+    for (i,e) in nums.enumerated(){
+        rightSum -= e
+        if leftSum  == rightSum{
+            return i
+        }
+        leftSum += e
+    }
+    
+    return -1
+}
+
+func flipAndInvertImage(_ image: [[Int]]) -> [[Int]] {
+    var image = image
+    for i in 0..<image.count {
+        var left = 0 , right = image.count - 1
+        while left < right {
+            if image[i][left] == image[i][right] {
+                image[i][left] ^= 1
+                image[i][right] ^= 1
+            }
+            left += 1
+            right -= 1
+        }
+        if left == right{
+            image[i][left] ^= 1
+        }
+        
+    }
+    return image
+}
+
+
+func maxArea(_ height: [Int]) -> Int {
+    
+    var left = 0 , right = height.count - 1
+    var ans = 0
+    while left < right {
+        let area = min(height[left], height[right]) * (right - left)
+        ans = max(area, ans)
+        if height[left] <= height[right]{
+            left += 1
+        }else{
+            right -= 1
+        }
+    }
+    
+    return ans
+}
+
+
+// + 1
+func plusOne(_ digits: [Int]) -> [Int] {
+
+    var digits = digits
+    var index = digits.count - 1
+    while index >= 0 {
+        
+        digits[index] = digits[index] + 1
+        digits[index] = digits[index] % 10
+        if  digits[index] != 0 {
+            return digits
+        }
+        
+        index -= 1
+    }
+    
+    digits.insert(1, at: 0)
+    
+    
+    return digits
+}
+
+
+func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+
+    
+    var map = [Int:Int]()
+    
+    for (i,e) in nums.enumerated() {
+       let remainder = target - e
+        if map.keys.contains(remainder){
+            if let index = map[remainder] , index != i {
+                return [index ,i]
+            }
+        }
+        map[e] = i
+    }
+    
+    
+    return []
+}
+
+// 有效的括号
+func isValid(_ s: String) -> Bool {
+
+    guard s.count % 2 == 0 else { return false}
+    let map:[Character:Character] = [
+        "(":")",
+        "[":"]",
+        "{":"}"]
+    var stack:[Character] = [Character]()
+    for char  in s {
+        if map[char] != nil {
+            stack.append(char)
+        }else{
+            if stack.isEmpty {
+                return false
+            }
+            else if map[stack.last!] != char{
+                return false
+            }else{
+                stack.popLast()
+            }
+        }
+    }
+    
+    return stack.isEmpty
+}
+
+// 接雨水
+func trap(_ height: [Int]) -> Int {
+    
+//    if height.count == 0  {return 0}
+//    var sum = 0
+//    var leftMaxArray = Array(repeating: 0, count: height.count)
+//    leftMaxArray[0] = height[0]
+//    var i = 1
+//    while i < height.count {
+//        leftMaxArray[i] = max(leftMaxArray[i-1], height[i])
+//        i += 1
+//    }
+//
+//    var rightMaxArray = Array(repeating: 0, count: height.count)
+//    rightMaxArray[height.count - 1] = height[height.count - 1]
+//    var j = height.count - 2
+//    while j >= 0 {
+//        rightMaxArray[j] = max(rightMaxArray[j + 1], height[j])
+//        j -= 1
+//    }
+//
+//    for k in 0..<height.count{
+//        sum += min(leftMaxArray[k], rightMaxArray[k]) - height[k]
+//    }
+//
+//    return sum
+    
+    if height.count == 0 {return 0}
+    
+    var sum = 0
+    var left = 0 ,right = height.count - 1
+    var leftMax = 0  , rightMax = 0
+    while left < right {
+        leftMax = max(leftMax, height[left])
+        rightMax = max(rightMax, height[right])
+        if height[left] < height[right]{
+            sum += leftMax - height[left]
+            left += 1
+        }else{
+            sum += rightMax - height[right]
+            right -= 1
+        }
+    }
+    
+
+    return sum
+}
+
+
+
+
+//print(trap([0,1,0,2,1,0,1,3,2,1,2,1]))
+
+
+
+
+//test35()
+//test37(3334)
+
+
+
+

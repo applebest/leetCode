@@ -53,12 +53,12 @@ class Solution35 {
             if nums[mid] == target {
                 return mid
             }else if nums[mid] < target {
-                left += 1
+                left  = mid + 1
             }else{
-                right -= 1
+                right = mid - 1
             }
         }
         
-        return left
+        return right + 1
     }
 }

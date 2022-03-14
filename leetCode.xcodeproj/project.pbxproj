@@ -13,6 +13,7 @@
 		2F1B7C842567BAD400822683 /* 1. 两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B7C832567BAD400822683 /* 1. 两数之和.swift */; };
 		2F1B7C87256BA3CD00822683 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B7C86256BA3CD00822683 /* ListNode.swift */; };
 		2F1B7C8A256BA3E900822683 /* 2. 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B7C89256BA3E900822683 /* 2. 两数相加.swift */; };
+		2F1C5C5427CCAA6A005ABD7A /* 42. 接雨水.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C5C5327CCAA6A005ABD7A /* 42. 接雨水.swift */; };
 		2F26F99B25B683100035FFE5 /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F26F99A25B683100035FFE5 /* HeapSort.swift */; };
 		2F27BD87256CE91B009BA774 /* 3. 无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F27BD86256CE91B009BA774 /* 3. 无重复字符的最长子串.swift */; };
 		2F27BD8A256D0CB1009BA774 /* 4. 寻找两个正序数组的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F27BD89256D0CB1009BA774 /* 4. 寻找两个正序数组的中位数.swift */; };
@@ -49,6 +50,8 @@
 		2FC5696B26C115DC003DAEC7 /* 15.三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5696A26C115DC003DAEC7 /* 15.三数之和.swift */; };
 		2FC5696E26C12DF8003DAEC7 /* 19.删除链表的倒数第 N 个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5696D26C12DF8003DAEC7 /* 19.删除链表的倒数第 N 个结点.swift */; };
 		2FC5697026C249C0003DAEC7 /* 21.合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5696F26C249C0003DAEC7 /* 21.合并两个有序链表.swift */; };
+		2FD008DD27BF840A0062F611 /* 905. 按奇偶排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD008DC27BF840A0062F611 /* 905. 按奇偶排序数组.swift */; };
+		2FD008E027C0EF590062F611 /* 70. 爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD008DF27C0EF590062F611 /* 70. 爬楼梯.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +74,7 @@
 		2F1B7C832567BAD400822683 /* 1. 两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. 两数之和.swift"; sourceTree = "<group>"; };
 		2F1B7C86256BA3CD00822683 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		2F1B7C89256BA3E900822683 /* 2. 两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. 两数相加.swift"; sourceTree = "<group>"; };
+		2F1C5C5327CCAA6A005ABD7A /* 42. 接雨水.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42. 接雨水.swift"; sourceTree = "<group>"; };
 		2F26F99A25B683100035FFE5 /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
 		2F27BD86256CE91B009BA774 /* 3. 无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3. 无重复字符的最长子串.swift"; sourceTree = "<group>"; };
 		2F27BD89256D0CB1009BA774 /* 4. 寻找两个正序数组的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4. 寻找两个正序数组的中位数.swift"; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 		2FC5696A26C115DC003DAEC7 /* 15.三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15.三数之和.swift"; sourceTree = "<group>"; };
 		2FC5696D26C12DF8003DAEC7 /* 19.删除链表的倒数第 N 个结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第 N 个结点.swift"; sourceTree = "<group>"; };
 		2FC5696F26C249C0003DAEC7 /* 21.合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21.合并两个有序链表.swift"; sourceTree = "<group>"; };
+		2FD008DC27BF840A0062F611 /* 905. 按奇偶排序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "905. 按奇偶排序数组.swift"; sourceTree = "<group>"; };
+		2FD008DF27C0EF590062F611 /* 70. 爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "70. 爬楼梯.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,7 @@
 		2F0D8AAB225B3B9800864DD8 /* leetCode */ = {
 			isa = PBXGroup;
 			children = (
+				2FD008DE27C0EF4C0062F611 /* 动态规划 */,
 				2F402F0B26D8E13C00949E39 /* 设计 */,
 				2F402F0426D4C0BB00949E39 /* 排序 */,
 				2F15D4B726CF9A4E005FCE0F /* 字符串 */,
@@ -210,6 +217,8 @@
 				2F54599D26CA444E00D58112 /* 414. 第三大的数.swift */,
 				2F54599F26CB91BF00D58112 /* 628. 三个数的最大乘积.swift */,
 				2F15D4BA26CF9FC4005FCE0F /* 1089. 复写零.swift */,
+				2FD008DC27BF840A0062F611 /* 905. 按奇偶排序数组.swift */,
+				2F1C5C5327CCAA6A005ABD7A /* 42. 接雨水.swift */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -223,6 +232,14 @@
 				2F71CF932576476500C47FC1 /* 206. 反转链表.swift */,
 			);
 			path = "链表";
+			sourceTree = "<group>";
+		};
+		2FD008DE27C0EF4C0062F611 /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				2FD008DF27C0EF590062F611 /* 70. 爬楼梯.swift */,
+			);
+			path = "动态规划";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,12 +307,14 @@
 				2F5F0D6D26BD4A0A001F6426 /* 66.加一.swift in Sources */,
 				2F402F0626D4C0D800949E39 /* quickSort-快排.swift in Sources */,
 				2FB3BE2925C3ED54004BD075 /* Stack.swift in Sources */,
+				2FD008E027C0EF590062F611 /* 70. 爬楼梯.swift in Sources */,
 				2F1B7C8A256BA3E900822683 /* 2. 两数相加.swift in Sources */,
 				2F665F1725709E2A002911F2 /* 6. Z 字形变换.swift in Sources */,
 				2F5F0D6626BD0A92001F6426 /* 189.旋转数组.swift in Sources */,
 				2FC5697026C249C0003DAEC7 /* 21.合并两个有序链表.swift in Sources */,
 				2F1B7C842567BAD400822683 /* 1. 两数之和.swift in Sources */,
 				2F92D35326C3C17400DC384F /* 136.只出现一次的数字.swift in Sources */,
+				2FD008DD27BF840A0062F611 /* 905. 按奇偶排序数组.swift in Sources */,
 				2F402F0A26D8C84700949E39 /* halfSearch-二分查找.swift in Sources */,
 				2F0D8AAD225B3B9800864DD8 /* main.swift in Sources */,
 				2F27BD8A256D0CB1009BA774 /* 4. 寻找两个正序数组的中位数.swift in Sources */,
@@ -309,6 +328,7 @@
 				2F92D34D26C264A700DC384F /* 35.搜索插入位置.swift in Sources */,
 				2F92D34F26C372B500DC384F /* 53.最大子序和.swift in Sources */,
 				2F26F99B25B683100035FFE5 /* HeapSort.swift in Sources */,
+				2F1C5C5427CCAA6A005ABD7A /* 42. 接雨水.swift in Sources */,
 				2F27BD87256CE91B009BA774 /* 3. 无重复字符的最长子串.swift in Sources */,
 				2F27BD8D256E46B6009BA774 /* BubbleSort-冒泡.swift in Sources */,
 				2F1B7C87256BA3CD00822683 /* ListNode.swift in Sources */,
