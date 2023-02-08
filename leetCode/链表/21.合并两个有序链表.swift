@@ -35,13 +35,13 @@ import Foundation
 
 class Solution21 {
     class func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
-        
+
         let p1:ListNode? = ListNode(0)
         var p2 = p1
-        
+
         var l1 = l1
         var l2 = l2
-        
+
         while l1 != nil && l2 != nil {
             if l1?.val ?? 0 <= l2?.val ?? 0 {
                 p2?.next = l1
@@ -51,10 +51,10 @@ class Solution21 {
                 l2 = l2?.next
             }
             p2 = p2?.next
-            
+
         }
         p2?.next  = l1 ?? l2
-        
+
         return p1?.next
         
     }

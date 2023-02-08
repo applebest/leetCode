@@ -46,6 +46,8 @@
 		2FB3BE2925C3ED54004BD075 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BE2825C3ED54004BD075 /* Stack.swift */; };
 		2FB3BE2E25C3FF11004BD075 /* 大整数求和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BE2D25C3FF11004BD075 /* 大整数求和.swift */; };
 		2FB3BE3125D26807004BD075 /* MooreVoting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BE3025D26807004BD075 /* MooreVoting.swift */; };
+		2FC0623428DAE18400C32F2B /* 链表中的倒数第k个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0623328DAE18400C32F2B /* 链表中的倒数第k个节点.swift */; };
+		2FC0623628DB14C800C32F2B /* 最大数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0623528DB14C800C32F2B /* 最大数.swift */; };
 		2FC5696926C0D277003DAEC7 /* 122.买卖股票的最佳时机II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5696826C0D277003DAEC7 /* 122.买卖股票的最佳时机II.swift */; };
 		2FC5696B26C115DC003DAEC7 /* 15.三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5696A26C115DC003DAEC7 /* 15.三数之和.swift */; };
 		2FC5696E26C12DF8003DAEC7 /* 19.删除链表的倒数第 N 个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5696D26C12DF8003DAEC7 /* 19.删除链表的倒数第 N 个结点.swift */; };
@@ -107,6 +109,8 @@
 		2FB3BE2825C3ED54004BD075 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		2FB3BE2D25C3FF11004BD075 /* 大整数求和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "大整数求和.swift"; sourceTree = "<group>"; };
 		2FB3BE3025D26807004BD075 /* MooreVoting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooreVoting.swift; sourceTree = "<group>"; };
+		2FC0623328DAE18400C32F2B /* 链表中的倒数第k个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "链表中的倒数第k个节点.swift"; sourceTree = "<group>"; };
+		2FC0623528DB14C800C32F2B /* 最大数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最大数.swift"; sourceTree = "<group>"; };
 		2FC5696826C0D277003DAEC7 /* 122.买卖股票的最佳时机II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122.买卖股票的最佳时机II.swift"; sourceTree = "<group>"; };
 		2FC5696A26C115DC003DAEC7 /* 15.三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15.三数之和.swift"; sourceTree = "<group>"; };
 		2FC5696D26C12DF8003DAEC7 /* 19.删除链表的倒数第 N 个结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第 N 个结点.swift"; sourceTree = "<group>"; };
@@ -172,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				2F15D4B826CF9A6E005FCE0F /* 344. 反转字符串.swift */,
+				2FC0623528DB14C800C32F2B /* 最大数.swift */,
 			);
 			path = "字符串";
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				2FC5696D26C12DF8003DAEC7 /* 19.删除链表的倒数第 N 个结点.swift */,
 				2FC5696F26C249C0003DAEC7 /* 21.合并两个有序链表.swift */,
 				2F71CF932576476500C47FC1 /* 206. 反转链表.swift */,
+				2FC0623328DAE18400C32F2B /* 链表中的倒数第k个节点.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -309,9 +315,11 @@
 				2FB3BE2925C3ED54004BD075 /* Stack.swift in Sources */,
 				2FD008E027C0EF590062F611 /* 70. 爬楼梯.swift in Sources */,
 				2F1B7C8A256BA3E900822683 /* 2. 两数相加.swift in Sources */,
+				2FC0623628DB14C800C32F2B /* 最大数.swift in Sources */,
 				2F665F1725709E2A002911F2 /* 6. Z 字形变换.swift in Sources */,
 				2F5F0D6626BD0A92001F6426 /* 189.旋转数组.swift in Sources */,
 				2FC5697026C249C0003DAEC7 /* 21.合并两个有序链表.swift in Sources */,
+				2FC0623428DAE18400C32F2B /* 链表中的倒数第k个节点.swift in Sources */,
 				2F1B7C842567BAD400822683 /* 1. 两数之和.swift in Sources */,
 				2F92D35326C3C17400DC384F /* 136.只出现一次的数字.swift in Sources */,
 				2FD008DD27BF840A0062F611 /* 905. 按奇偶排序数组.swift in Sources */,

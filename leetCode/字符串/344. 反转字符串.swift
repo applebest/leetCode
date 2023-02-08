@@ -25,4 +25,23 @@ class Solution344 {
             end -= 1
         }
     }
+    
+   static func solve ( _ str: String) -> String {
+           
+        var chars = Array(str)
+        
+       var l = 0 , r = chars.count - 1
+       while l < r {
+           let temp = chars[l]
+           chars[l] = chars[r]
+           chars[r] = temp
+           l += 1
+           r -= 1
+       }
+       
+      
+        return String(chars[0...chars.count - 1])
+    }
+    
+    
 }

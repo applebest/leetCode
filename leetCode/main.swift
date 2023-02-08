@@ -614,6 +614,8 @@ func trap(_ height: [Int]) -> Int {
 
 
 
+print(Solution344.solve("打扫房间看了就"))
+
 
 //print(trap([0,1,0,2,1,0,1,3,2,1,2,1]))
 
