@@ -33,6 +33,7 @@
 		2F5F0D6D26BD4A0A001F6426 /* 66.加一.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5F0D6C26BD4A0A001F6426 /* 66.加一.swift */; };
 		2F665F1725709E2A002911F2 /* 6. Z 字形变换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F665F1625709E2A002911F2 /* 6. Z 字形变换.swift */; };
 		2F71CF942576476500C47FC1 /* 206. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71CF932576476500C47FC1 /* 206. 反转链表.swift */; };
+		2F7F29FB299A358000267C18 /* 350. 两个数组的交集 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F29FA299A358000267C18 /* 350. 两个数组的交集 II.swift */; };
 		2F92D34D26C264A700DC384F /* 35.搜索插入位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F92D34C26C264A700DC384F /* 35.搜索插入位置.swift */; };
 		2F92D34F26C372B500DC384F /* 53.最大子序和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F92D34E26C372B500DC384F /* 53.最大子序和.swift */; };
 		2F92D35126C3ADB100DC384F /* 88.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F92D35026C3ADB100DC384F /* 88.合并两个有序数组.swift */; };
@@ -96,6 +97,7 @@
 		2F5F0D6C26BD4A0A001F6426 /* 66.加一.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "66.加一.swift"; sourceTree = "<group>"; };
 		2F665F1625709E2A002911F2 /* 6. Z 字形变换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "6. Z 字形变换.swift"; sourceTree = "<group>"; };
 		2F71CF932576476500C47FC1 /* 206. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. 反转链表.swift"; sourceTree = "<group>"; };
+		2F7F29FA299A358000267C18 /* 350. 两个数组的交集 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350. 两个数组的交集 II.swift"; sourceTree = "<group>"; };
 		2F92D34C26C264A700DC384F /* 35.搜索插入位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.搜索插入位置.swift"; sourceTree = "<group>"; };
 		2F92D34E26C372B500DC384F /* 53.最大子序和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "53.最大子序和.swift"; sourceTree = "<group>"; };
 		2F92D35026C3ADB100DC384F /* 88.合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "88.合并两个有序数组.swift"; sourceTree = "<group>"; };
@@ -162,9 +164,6 @@
 				2FB3BD9225B95FCC004BD075 /* CountSort.swift */,
 				2F26F99A25B683100035FFE5 /* HeapSort.swift */,
 				2F1B7C86256BA3CD00822683 /* ListNode.swift */,
-				2F27BD86256CE91B009BA774 /* 3. 无重复字符的最长子串.swift */,
-				2F27BD89256D0CB1009BA774 /* 4. 寻找两个正序数组的中位数.swift */,
-				2F27BD8F256E4BFF009BA774 /* 5. 最长回文子串 .swift */,
 				2FB3BE2525C292E5004BD075 /* 寻找全排列的下一个数.swift */,
 				2FB3BE2D25C3FF11004BD075 /* 大整数求和.swift */,
 				2F402F0926D8C84700949E39 /* halfSearch-二分查找.swift */,
@@ -175,6 +174,8 @@
 		2F15D4B726CF9A4E005FCE0F /* 字符串 */ = {
 			isa = PBXGroup;
 			children = (
+				2F27BD8F256E4BFF009BA774 /* 5. 最长回文子串 .swift */,
+				2F27BD86256CE91B009BA774 /* 3. 无重复字符的最长子串.swift */,
 				2F15D4B826CF9A6E005FCE0F /* 344. 反转字符串.swift */,
 				2FC0623528DB14C800C32F2B /* 最大数.swift */,
 			);
@@ -202,6 +203,7 @@
 		2F5F0D6B26BD48F9001F6426 /* 数组 */ = {
 			isa = PBXGroup;
 			children = (
+				2F27BD89256D0CB1009BA774 /* 4. 寻找两个正序数组的中位数.swift */,
 				2F1B7C832567BAD400822683 /* 1. 两数之和.swift */,
 				2F5F0D6326BBB952001F6426 /* 14.最长公共前缀.swift */,
 				2F5F0D6126BA8358001F6426 /* 350两个数组的交集.swift */,
@@ -224,6 +226,7 @@
 				2F15D4BA26CF9FC4005FCE0F /* 1089. 复写零.swift */,
 				2FD008DC27BF840A0062F611 /* 905. 按奇偶排序数组.swift */,
 				2F1C5C5327CCAA6A005ABD7A /* 42. 接雨水.swift */,
+				2F7F29FA299A358000267C18 /* 350. 两个数组的交集 II.swift */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				2F5F0D6D26BD4A0A001F6426 /* 66.加一.swift in Sources */,
 				2F402F0626D4C0D800949E39 /* quickSort-快排.swift in Sources */,
 				2FB3BE2925C3ED54004BD075 /* Stack.swift in Sources */,
+				2F7F29FB299A358000267C18 /* 350. 两个数组的交集 II.swift in Sources */,
 				2FD008E027C0EF590062F611 /* 70. 爬楼梯.swift in Sources */,
 				2F1B7C8A256BA3E900822683 /* 2. 两数相加.swift in Sources */,
 				2FC0623628DB14C800C32F2B /* 最大数.swift in Sources */,

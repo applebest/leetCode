@@ -614,12 +614,30 @@ func trap(_ height: [Int]) -> Int {
 
 
 
-print(Solution344.solve("打扫房间看了就"))
+//print(Solution344.solve("打扫房间看了就"))
 
 
 //print(trap([0,1,0,2,1,0,1,3,2,1,2,1]))
 
 
+func isPalindrome(_ x: Int) -> Bool {
+        
+    if x < 0  || x % 10 == 0 && x != 0{
+        return false
+    }
+   
+    var num = x
+    var reverNum = 0
+    while num > reverNum {
+        reverNum = reverNum * 10 + num % 10
+        num = num / 10
+    }
+    
+   
+    return num == reverNum || num == reverNum / 10
+}
+
+print(isPalindrome(121))
 
 
 //test35()
