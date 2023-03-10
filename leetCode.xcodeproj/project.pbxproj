@@ -41,6 +41,7 @@
 		2F92D35526C3CB5700DC384F /* 167. 两数之和 II - 输入有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F92D35426C3CB5700DC384F /* 167. 两数之和 II - 输入有序数组.swift */; };
 		2F92D35726C4F6D700DC384F /* 217. 存在重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F92D35626C4F6D700DC384F /* 217. 存在重复元素.swift */; };
 		2F92D35B26C51DBC00DC384F /* 283. 移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F92D35A26C51DBC00DC384F /* 283. 移动零.swift */; };
+		2FB248F529BB296F00CB830B /* LFU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB248F429BB296F00CB830B /* LFU.swift */; };
 		2FB3BD9325B95FCC004BD075 /* CountSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BD9225B95FCC004BD075 /* CountSort.swift */; };
 		2FB3BDE425BEB412004BD075 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BDE325BEB412004BD075 /* MinStack.swift */; };
 		2FB3BE2625C292E5004BD075 /* 寻找全排列的下一个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BE2525C292E5004BD075 /* 寻找全排列的下一个数.swift */; };
@@ -105,6 +106,7 @@
 		2F92D35426C3CB5700DC384F /* 167. 两数之和 II - 输入有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167. 两数之和 II - 输入有序数组.swift"; sourceTree = "<group>"; };
 		2F92D35626C4F6D700DC384F /* 217. 存在重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217. 存在重复元素.swift"; sourceTree = "<group>"; };
 		2F92D35A26C51DBC00DC384F /* 283. 移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. 移动零.swift"; sourceTree = "<group>"; };
+		2FB248F429BB296F00CB830B /* LFU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFU.swift; sourceTree = "<group>"; };
 		2FB3BD9225B95FCC004BD075 /* CountSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSort.swift; sourceTree = "<group>"; };
 		2FB3BDE325BEB412004BD075 /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
 		2FB3BE2525C292E5004BD075 /* 寻找全排列的下一个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "寻找全排列的下一个数.swift"; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				2F402F0C26D8E14C00949E39 /* 706. 设计哈希映射.swift */,
+				2FB248F429BB296F00CB830B /* LFU.swift */,
 			);
 			path = "设计";
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB248F529BB296F00CB830B /* LFU.swift in Sources */,
 				2FC5696E26C12DF8003DAEC7 /* 19.删除链表的倒数第 N 个结点.swift in Sources */,
 				2F5459A026CB91BF00D58112 /* 628. 三个数的最大乘积.swift in Sources */,
 				2F15D4BB26CF9FC4005FCE0F /* 1089. 复写零.swift in Sources */,
