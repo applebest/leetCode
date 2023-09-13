@@ -47,7 +47,7 @@ class LFUCache {
             cache[key] = (value:value,count:oldValue.count + 1)
         }else{
             
-            // 缓存已满 , 汰访问次数最少的数据
+            // 缓存已满 , 删除访问次数最少的数据
             if cache.count == capacity {
                 let minCount = cache.values.map({$0.count}).min()!
                 let minKeys = cache.filter({$0.value.count == minCount}).map({$0.key})

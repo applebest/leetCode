@@ -42,6 +42,8 @@
 		2F92D35726C4F6D700DC384F /* 217. 存在重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F92D35626C4F6D700DC384F /* 217. 存在重复元素.swift */; };
 		2F92D35B26C51DBC00DC384F /* 283. 移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F92D35A26C51DBC00DC384F /* 283. 移动零.swift */; };
 		2FB248F529BB296F00CB830B /* LFU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB248F429BB296F00CB830B /* LFU.swift */; };
+		2FB248F729BEB49100CB830B /* FIFO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB248F629BEB49100CB830B /* FIFO.swift */; };
+		2FB248F929BF1DEE00CB830B /* 1154. 一年中的第几天.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB248F829BF1DEE00CB830B /* 1154. 一年中的第几天.swift */; };
 		2FB3BD9325B95FCC004BD075 /* CountSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BD9225B95FCC004BD075 /* CountSort.swift */; };
 		2FB3BDE425BEB412004BD075 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BDE325BEB412004BD075 /* MinStack.swift */; };
 		2FB3BE2625C292E5004BD075 /* 寻找全排列的下一个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BE2525C292E5004BD075 /* 寻找全排列的下一个数.swift */; };
@@ -107,6 +109,8 @@
 		2F92D35626C4F6D700DC384F /* 217. 存在重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217. 存在重复元素.swift"; sourceTree = "<group>"; };
 		2F92D35A26C51DBC00DC384F /* 283. 移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. 移动零.swift"; sourceTree = "<group>"; };
 		2FB248F429BB296F00CB830B /* LFU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFU.swift; sourceTree = "<group>"; };
+		2FB248F629BEB49100CB830B /* FIFO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIFO.swift; sourceTree = "<group>"; };
+		2FB248F829BF1DEE00CB830B /* 1154. 一年中的第几天.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1154. 一年中的第几天.swift"; sourceTree = "<group>"; };
 		2FB3BD9225B95FCC004BD075 /* CountSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSort.swift; sourceTree = "<group>"; };
 		2FB3BDE325BEB412004BD075 /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
 		2FB3BE2525C292E5004BD075 /* 寻找全排列的下一个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "寻找全排列的下一个数.swift"; sourceTree = "<group>"; };
@@ -180,6 +184,7 @@
 				2F27BD86256CE91B009BA774 /* 3. 无重复字符的最长子串.swift */,
 				2F15D4B826CF9A6E005FCE0F /* 344. 反转字符串.swift */,
 				2FC0623528DB14C800C32F2B /* 最大数.swift */,
+				2FB248F829BF1DEE00CB830B /* 1154. 一年中的第几天.swift */,
 			);
 			path = "字符串";
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 			children = (
 				2F402F0C26D8E14C00949E39 /* 706. 设计哈希映射.swift */,
 				2FB248F429BB296F00CB830B /* LFU.swift */,
+				2FB248F629BEB49100CB830B /* FIFO.swift */,
 			);
 			path = "设计";
 			sourceTree = "<group>";
@@ -352,10 +358,12 @@
 				2FB3BDE425BEB412004BD075 /* MinStack.swift in Sources */,
 				2FC5696926C0D277003DAEC7 /* 122.买卖股票的最佳时机II.swift in Sources */,
 				2FB3BD9325B95FCC004BD075 /* CountSort.swift in Sources */,
+				2FB248F729BEB49100CB830B /* FIFO.swift in Sources */,
 				2FB3BE2E25C3FF11004BD075 /* 大整数求和.swift in Sources */,
 				2FC5696B26C115DC003DAEC7 /* 15.三数之和.swift in Sources */,
 				2F5F0D6226BA8358001F6426 /* 350两个数组的交集.swift in Sources */,
 				2F92D35B26C51DBC00DC384F /* 283. 移动零.swift in Sources */,
+				2FB248F929BF1DEE00CB830B /* 1154. 一年中的第几天.swift in Sources */,
 				2F92D35126C3ADB100DC384F /* 88.合并两个有序数组.swift in Sources */,
 				2F402F0826D8C55D00949E39 /* mergeSort-归并排序.swift in Sources */,
 				2FB3BE3125D26807004BD075 /* MooreVoting.swift in Sources */,
